@@ -16,8 +16,9 @@
 
 /* "Desktop" specific styles */
 @media (min-width: 600px) {
-    .wiki-item {
+    .container {
         max-width: 960px;
+        margin: 0 auto;
     }
 
     .wiki-content {
