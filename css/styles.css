@@ -1,0 +1,29 @@
+/* Set the width of the image to 100% */
+.wiki-img {
+    width: 100%;
+}
+
+/* Add margin to the wiki item */
+.wiki-item {
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(50, 0, 0, 0.15); /* Add box shadow */
+}
+
+/* Add padding to the wiki content */
+.wiki-content {
+    padding: 10px;
+}
+
+/* "Desktop" specific styles */
+@media (min-width: 600px) {
+    .wiki-content {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .wiki-text,
+    .img-container {
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
