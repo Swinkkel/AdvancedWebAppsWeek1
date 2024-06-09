@@ -16,6 +16,10 @@
 
 /* "Desktop" specific styles */
 @media (min-width: 600px) {
+    .wiki-item {
+        max-width: 960px;
+    }
+
     .wiki-content {
         display: flex;
         flex-direction: row-reverse;
